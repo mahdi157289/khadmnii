@@ -1,0 +1,908 @@
+@import "../styles/variables.scss";
+@import "../styles/breakpoints.scss";
+
+.b {
+  background: rgb(0, 45, 60);
+}
+
+#rock1 {
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock2 {
+  position: absolute;
+  left: 200px;
+  top: -25px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock3 {
+  position: absolute;
+  left: 585px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock4 {
+  position: absolute;
+  left: 385px;
+  top: 90px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock5 {
+  position: absolute;
+  left: 60px;
+  top: 140px;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock6 {
+  position: absolute;
+  left: 500px;
+  top: -25px;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock7 {
+  position: absolute;
+  left: 60px;
+  top: -55px;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock8 {
+  position: absolute;
+  left: 530px;
+  top: 130px;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock9 {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock10 {
+  position: absolute;
+  left: 650px;
+  top: 100px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock11 {
+  position: absolute;
+  left: 600px;
+  top: 180px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock12 {
+  position: absolute;
+  left: 500px;
+  top: 180px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock13 {
+  position: absolute;
+  left: 460px;
+  top: 200px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock14 {
+  position: absolute;
+  left: 180px;
+  top: 280px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock15 {
+  position: absolute;
+  left: 450px;
+  top: 25px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 4s infinite;
+}
+
+#rock16 {
+  position: absolute;
+  left: -100px;
+  top: 100px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock17 {
+  position: absolute;
+  left: -200px;
+  top: 220px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 7s infinite;
+}
+
+#rock18 {
+  position: absolute;
+  left: 280px;
+  top: 260px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock19 {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 7s infinite;
+}
+
+#rock20 {
+  position: absolute;
+  left: 340px;
+  top: 100px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 8s infinite;
+}
+
+#rock21 {
+  position: absolute;
+  left: 380px;
+  top: 270px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock22 {
+  position: absolute;
+  left: 420px;
+  top: 250px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: a 6s infinite;
+}
+
+#rock23 {
+  position: absolute;
+  left: -100px;
+  top: 288px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  animation: b 6s infinite;
+}
+
+#rock24 {
+  position: absolute;
+  left: 300x;
+  top: 250px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  animation: a 5s infinite;
+}
+
+@keyframes a {
+  0% {
+    background: transparent;
+  }
+
+  50% {
+    background: darkorange;
+  }
+
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes b {
+  0% {
+    background: darkorange;
+  }
+
+  50% {
+    background: transparent;
+  }
+
+  100% {
+    background: darkorange;
+  }
+}
+
+#div1 {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: calc(50% - 150px);
+  width: 600px;
+  height: 100px;
+  border: 20px solid rgb(60, 60, 60);
+  border-radius: 100px;
+}
+
+#diva1 {
+  position: absolute;
+  width: 590px;
+  height: 90px;
+  border: 5px solid orange;
+  border-radius: 100px;
+  background: orange;
+  transition: .6s;
+}
+
+#divaa1 {
+  position: absolute;
+  left: 30px;
+  width: 350px;
+  border: 5px solid orange;
+  border-radius: 100px;
+  background: orange;
+  transition: .6s;
+}
+
+#divaa1:hover {
+  height: 250px;
+}
+
+#divaa1:hover>#divaaa1 {
+  height: 180px;
+  border: 5px solid orange;
+}
+
+#divaaa1 {
+  position: absolute;
+  top: -5px;
+  left: 75px;
+  width: 475px;
+  height: 80px;
+  border: 5px solid orange;
+  border-radius: 100px;
+  background: orange;
+  transition: .6s;
+}
+
+
+
+
+
+
+
+#btna2 {
+  position: absolute;
+  top: 0px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .6s;
+  left: 150px;
+}
+
+#divaa1:hover>#btna2 {
+  top: 100px;
+  color: black;
+  background: rgb(105, 105, 105);
+  padding-bottom: 5px;
+  width: 250px;
+  align-items: center;
+  z-index: 1;
+
+}
+
+#btna3 {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+#divaa1:hover>#btna3 {
+  top: 150px;
+  color: black;
+  background: dimgrey;
+  padding-bottom: 5px;
+  width: 250px;
+  align-items: center;
+  z-index: 1;
+  padding-left: 30px;
+}
+
+#btnb1 {
+  position: absolute;
+  top: 0px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .7s;
+}
+
+#btnb2 {
+  position: absolute;
+  top: 0px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+
+
+#btnc2 {
+  position: absolute;
+  top: 0px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+#btnc3 {
+  position: absolute;
+  top: 0px;
+  background: transparent;
+  width: 75px;
+  color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border: 2.5px solid transparent;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.create-listing {
+  background-color: #080808;
+  padding: 40px 60px 120px;
+  height: 2000px;
+
+  @include mm {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    color: $blue;
+
+    text-decoration: double;
+  }
+
+  &_step1 {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+    @include sm {
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: $blue;
+    }
+
+    hr {
+      margin: 15px 0 25px;
+    }
+
+    h3 {
+      margin: 40px 0 20px;
+      color: $blue;
+    }
+
+    .category-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0 20px;
+      background: white;
+
+      @include lg {
+        padding: 0 20px;
+      }
+
+      @include md {
+        padding: 0;
+      }
+
+      .category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        height: 90px;
+        border: 1px solid $grey;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s ease;
+
+        &_icon {
+          font-size: 30px;
+
+        }
+
+        img.arr {
+
+          position: absolute;
+          width: 100%;
+          height: 100%;
+
+
+        }
+
+        p {
+          font-weight: 600;
+          text-align: center;
+          color: black;
+        }
+
+        &:hover {
+          border: 2px solid $pinkred;
+          background-color: $lightgrey;
+        }
+      }
+
+      .selected {
+        border: 2px solid $pinkred;
+        background-color: $lightgrey;
+      }
+    }
+
+    .type-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .type {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 600px;
+        padding: 15px 30px;
+        border: 1px solid $grey;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s ease;
+
+        &_text {
+          max-width: 400px;
+
+          h4 {
+            margin-bottom: 5px;
+          }
+        }
+
+        &_icon {
+          font-size: 30px;
+        }
+
+        &:hover {
+          border: 2px solid $pinkred;
+          background-color: $lightgrey;
+        }
+      }
+
+      .selected {
+        border: 2px solid $pinkred;
+        background-color: $lightgrey;
+      }
+    }
+
+    .full {
+      max-width: 700px;
+    }
+
+    .half {
+      max-width: 700px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+
+      @include ml {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+
+    .location {
+      p {
+        font-weight: 700;
+        margin: 20px 0 10px;
+      }
+
+      input {
+        border: 1px solid $grey;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .basics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+
+      .basic {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 15px;
+        border: 1px solid $grey;
+        border-radius: 10px;
+
+        p {
+          font-weight: 600;
+        }
+
+        &_count {
+          display: flex;
+          align-items: center;
+          gap: 9px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  &_step2 {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+    @include sm {
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: $blue;
+    }
+
+    hr {
+      margin: 15px 0 25px;
+    }
+
+    h3 {
+      margin: 40px 0 20px;
+      color: $blue;
+    }
+
+    .amenities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .facility {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 90px;
+        border: 1px solid $grey;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s ease;
+
+        &_icon {
+          font-size: 30px;
+        }
+
+        p {
+          font-weight: 600;
+        }
+
+        &:hover {
+          border: 2px solid $pinkred;
+          background-color: $lightgrey;
+        }
+      }
+
+      .selected {
+        border: 2px solid $pinkred;
+        background-color: $lightgrey;
+      }
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+
+      .photo {
+        position: relative;
+        width: 250px;
+        height: 150px;
+        cursor: move;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        button {
+          position: absolute;
+          right: 0;
+          top: 0;
+          padding: 3px;
+          border: none;
+          background-color: rgba(255, 255, 255, 0.8);
+          font-size: 20px;
+          cursor: pointer;
+
+          &:hover {
+            color: $pinkred;
+          }
+        }
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 1px dashed $grey;
+
+        .icon {
+          font-size: 60px;
+        }
+
+        p {
+          font-weight: 600;
+          text-align: center;
+        }
+      }
+
+      .together {
+        width: 250px;
+        height: 150px;
+      }
+
+      .alone {
+        padding: 40px 100px;
+        border-radius: 10px;
+
+        @include mm {
+          padding: 40px 80px;
+        }
+
+        @include sm {
+          padding: 40px 30px;
+        }
+      }
+    }
+
+    .title {
+      input {
+        border: 1px solid $grey;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .description {
+      p {
+        font-weight: 700;
+        margin: 20px 0 10px;
+      }
+
+      input,
+      textarea {
+        border: 1px solid $grey;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        width: 600px;
+
+        @include ml {
+          width: 450px;
+        }
+
+        @include md {
+          width: 350px;
+        }
+
+        @include sm {
+          width: 280px;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        font-size: 25px;
+        font-weight: 700;
+        margin-right: 20px;
+      }
+
+      .price {
+        width: 200px;
+      }
+    }
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    .button-column {
+      display: block; // change this line
+      width: 100%; // and this line
+      text-align: center;
+      padding: 20px;
+      border: 1px solid $grey;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s ease;
+
+      &:hover {
+        border: 2px solid $pinkred;
+        background-color: $lightgrey;
+      }
+
+      button {
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        width: 100%; // add this line
+
+        &:hover {
+          color: $pinkred;
+        }
+      }
+
+      p {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .submit_btn {
+    margin-top: 40px;
+
+    @include buttonStyle;
+
+    &:hover {
+      box-shadow: 0 0 10px 3px rgb(117, 117, 117);
+    }
+  }
+}
